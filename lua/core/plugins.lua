@@ -59,5 +59,8 @@ require("lazy").setup({
   { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
   { "sainnhe/sonokai" }, { 'abecodes/tabout.nvim' }, { 'hrsh7th/vim-vsnip' }, { 'rebelot/kanagawa.nvim' },
   {'slugbyte/lackluster.nvim'}, {'terrortylor/nvim-comment'}, {'jose-elias-alvarez/null-ls.nvim'},
-  {'MaxMEllon/vim-jsx-pretty'}
+  {'MaxMEllon/vim-jsx-pretty'}, {
+  'Exafunction/codeium.vim',
+  event = 'BufEnter'
+}
 })

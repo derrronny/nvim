@@ -15,7 +15,7 @@
 local treesitter = require'nvim-treesitter.configs'
 
 treesitter.setup {
-  ensure_installed = {"c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline", "typescript", "javascript", "css", "html"},
+  ensure_installed = {"lua", "vim", "vimdoc", "query", "markdown", "markdown_inline", "typescript", "javascript", "css", "html"},
   highlight = {
     enable = true,
     additional_vim_regex_highlighting = true
